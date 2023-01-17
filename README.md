@@ -1,3 +1,2 @@
 # Portfolio
-Portfolio Website
-test
+This is the code for my portfolio website.
