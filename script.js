@@ -1,5 +1,5 @@
 const [red, green, blue] = [0, 24, 183]
-const main = document.querySelector('.main')
+const main = document.querySelector('.body')
 
 function changeColorOnScroll(){
     const scrolled = 1 + (window.scrollY)/200
