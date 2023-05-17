@@ -1,5 +1,5 @@
 .body {
-    height: 5000px;
+    height: 1500px;
     background-color: rgb(0, 24, 183);
     margin: 0px;
 }
@@ -20,6 +20,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 li a:hover{
