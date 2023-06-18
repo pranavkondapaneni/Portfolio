@@ -8,14 +8,12 @@ function windowHeightChange(){
 }
 window.addEventListener('resize', windowHeightChange)
 
-function changeColorOnScroll(){
-    const scrolled = 1 + (window.scrollY)/95
+function changeColorOnScrollHome(){
+    const scrolled = 1 + (window.scrollY)/(window.innerHeight/8)
     const [r, g, b] = [red/scrolled, green/scrolled, blue/scrolled].map(Math.round)
     main.style.backgroundColor = `rgb(${r}, ${g}, ${b})`
 }
-window.addEventListener('scroll', changeColorOnScroll)
-
-console.log(window.innerHeight);
+window.addEventListener('scroll', changeColorOnScrollHome)
 
 var i = 0
 var mainName = 'Pranav Kondapaneni'
